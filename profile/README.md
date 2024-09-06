@@ -1,4 +1,4 @@
-Application system contains three main repositories : a Flutter-based mobile application (front-end), an ASP.NET Core API (back-end), a ReactJs (front-end) admin panel.
+Application system contains three main repositories : a Flutter-based mobile application (front-end), an ASP.NET Core API (back-end), a ViteJs (front-end) admin panel.
 
 ## Prerequisites
 
@@ -6,6 +6,7 @@ Before you begin, ensure you have the following software installed:
 
 - [Flutter](https://flutter.dev/docs/get-started/install)
 - [.NET SDK](https://dotnet.microsoft.com/download)
+- [Node js](https://nodejs.org/en/download/package-manager)
 
 ## Setup Instructions
 All of below three repositories are needed to simulate the full functionality of the system
@@ -22,11 +23,11 @@ All of below three repositories are needed to simulate the full functionality of
 2. Restore NuGet packages using `dotnet restore`/ Automatically installed if Visual Studio is used
 3. Build & Run
 
-### Admin front end (ReactJs)
+### Admin front end (ViteJs)
 
 1. Clone the `Admin-WebFrontEnd` repository
 2. Install Node modules with `npm install`
-3. Run the dev server by `npm start`
+3. Run the dev server by `npm run dev`
 
 
 
